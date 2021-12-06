@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.body {
+  width: 100%;
+  padding: 20px;
+}
+
+.fa-4x {
+  padding: 20px;
+}
+
+.icon {
+  display: inline-flex;
+}
+
+.fa-3x {
+  padding: 20px;
+}
+
+a {
+  color: white;
+}
