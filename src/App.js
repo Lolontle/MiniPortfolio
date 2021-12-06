@@ -1,4 +1,5 @@
 
+
 import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub, faJsSquare, faPython, faJava, faHtml5, faCss3Alt, faReact, faNodeJs } 
@@ -46,31 +47,31 @@ function App() {
           <h4>Programming Languages</h4>
           <div className="skills_icons">
             <div className="icon java">
-              <a title="Java"><FontAwesomeIcon icon={ faJava } className="fa-4x"></FontAwesomeIcon></a>
+              <FontAwesomeIcon icon={ faJava } className="fa-4x"></FontAwesomeIcon>
             </div>
 
             <div className="icon python">
-              <a title="Python"><FontAwesomeIcon icon={ faPython } className="fa-4x"></FontAwesomeIcon></a>
+              <FontAwesomeIcon icon={ faPython } className="fa-4x"></FontAwesomeIcon>
             </div>
 
               <div className="icon javascript">
-                <a title="JavaScript"><FontAwesomeIcon icon={ faJsSquare } className="fa-4x"></FontAwesomeIcon></a>
+                <FontAwesomeIcon icon={ faJsSquare } className="fa-4x"></FontAwesomeIcon>
               </div>
 
               <div className="icon html5">
-                <a title="HTML5"><FontAwesomeIcon icon={ faHtml5 } className="fa-4x"></FontAwesomeIcon></a>
+                <FontAwesomeIcon icon={ faHtml5 } className="fa-4x"></FontAwesomeIcon>
               </div>
 
               <div className="icon css">
-                <a title="CSS"><FontAwesomeIcon icon={ faCss3Alt } className="fa-4x"></FontAwesomeIcon></a>
+                <FontAwesomeIcon icon={ faCss3Alt } className="fa-4x"></FontAwesomeIcon>
               </div>
             </div>
           <h4>Frameworks</h4>
           <div className="icon react">
-            <a title="React"><FontAwesomeIcon icon={ faReact } className="fa-4x"></FontAwesomeIcon></a>
+            <FontAwesomeIcon icon={ faReact } className="fa-4x"></FontAwesomeIcon>
           </div>
           <div className="icon nodeJs">
-          <a title="NodeJS"><FontAwesomeIcon icon={ faNodeJs } className="fa-4x"></FontAwesomeIcon></a>
+          <FontAwesomeIcon icon={ faNodeJs } className="fa-4x"></FontAwesomeIcon>
           </div>
           
           <h4>Databases</h4>
@@ -81,9 +82,9 @@ function App() {
         <div id="recognition">
           <h4>Blog Posts</h4>
           <a href="https://blog.hyperiondev.com/index.php/2020/12/02/student-spotlight-lolontle-moatshe-software-engineering-student/" 
-          target="_blank" title="HyperionDev: Student Spolight"><p>Student Spotlight</p></a>
+          target="_blank" title="HyperionDev: Student Spolight" rel="noreferrer"><p>Student Spotlight</p></a>
           <a href="https://blog.hyperiondev.com/index.php/2021/03/17/lolontle-moatshe-stay-motivated-part-time-developer/" 
-          target="_blank" title="HyperionDev: How to stay motivated as a part-time developer"><p>How to stay motivated as a part-time developer</p></a>
+          target="_blank" title="HyperionDev: How to stay motivated as a part-time developer" rel="noreferrer"><p>How to stay motivated as a part-time developer</p></a>
         </div>
       </div>
 
@@ -91,10 +92,10 @@ function App() {
         <div id="socials">
           <h4>Socials</h4>
           <div className="icon linkedIn">
-            <a href="https://www.linkedin.com/in/lolontlemoatshe/" target="_blank" title="LinkedIn"><FontAwesomeIcon icon={ faLinkedinIn } className="fa-3x"></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/lolontlemoatshe/" target="_blank" title="LinkedIn" rel="noreferrer"><FontAwesomeIcon icon={ faLinkedinIn } className="fa-3x"></FontAwesomeIcon></a>
           </div>
           <div className="icon github">
-            <a href="https://github.com/Lolontle/" target="_blank" title="Github"><FontAwesomeIcon icon={ faGithub } className="fa-3x"></FontAwesomeIcon></a>
+            <a href="https://github.com/Lolontle/" target="_blank" title="Github" rel="noreferrer"><FontAwesomeIcon icon={ faGithub } className="fa-3x"></FontAwesomeIcon></a>
           </div>
           
         </div>
